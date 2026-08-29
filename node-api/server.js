@@ -8,7 +8,7 @@ app.use(express.json());
 
 app.get("/", (req, res) => {
   res.json({
-    message: "rakesh",
+    message: "rakeshs",
     environment: process.env.NODE_ENV || "development",
   });
 });
